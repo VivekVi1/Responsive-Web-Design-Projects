@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Tesla Model Purchase</h1>
+        <p id="description">Fill out the details below to complete your purchase</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <fieldset class="details">
+                <legend>Personal Details</legend>
+                <div class="form-group">
+                    <label for="name" id="name">Name</label>
+                    <br>
+                    <input type="text" class="input-text" placeholder="Eg: Elon Musk" required>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email">Email</label>
+                    <br>
+                    <input type="email" class="input-text" placeholder="Eg: elonmusk@tesla.com" required>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="number" id="number">Phone Number(Optional)</label>
+                    <br>
+                    <input type="number" class="input-text" min="0" max="9">
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="Gender" id="gender">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" checked>Male
+                    <br>
+                    <input type="radio" name="gender" checked>Female
+                    <br>
+                    <input type="radio" name="gender" checked>Other
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="address" id="address">Address</label>
+                    <br>
+                    <input type="text" id="address" placeholder="Eg: 123 Main Street, New York, NY 10030">
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="upload-dl" id="upload">Upload your driving license</label>
+                    <br>
+                    <input type="button" id="button" value="Attach File">
+                </div>
+            </fieldset>
+            <fieldset class="details">
+                <legend>Product Details</legend>
+                <label for="dropdown" id="model">Select Model</label><br>
+                <select id="dropdown">
+                    <option value="Model-X">Model X</option>
+                    <option value="Model-Y">Model Y</option>
+                    <option value="Model-S">Model S</option>
+                    <option value="Model-3">Model 3</option>
+                </select>
+                <br>
+                <div class="form-group">
+                <label for="color" id="color">Model Color:</label><br>
+                <input type="radio" name="color">Red <br>
+                <input type="radio" name="color">White <br>
+                <input type="radio" name="color">Blue <br>
+                <input type="radio" name="color">Silver <br>
+            </div>
+                <div class="form-group">
+                <label for="add-features">Additional Features:</label><br>
+                <input type="checkbox" value="brain" name="features">A Brain <br>
+                <input type="checkbox" value="lungs" name="features">Lungs <br>
+                <input type="checkbox" value="pancreas" name="features">Pancreas <br>
+            </div>
+                <div class="form-group">
+                <label for="add-instructions">Additional Instructions</label><br>
+                <textarea name="instructions" id="textarea" cols="50" rows="10"></textarea><br>
+            </div>
+                <input type="button" id="submit" value="Place Order">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

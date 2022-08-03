@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: inherit;
+    background: #8FA1AA;
+    background: -moz-linear-gradient(top, #8FA1AA 0%, #A5A9AF 52%, #A0A0A0 100%);
+    background: -webkit-linear-gradient(top, #8FA1AA 0%, #A5A9AF 52%, #A0A0A0 100%);
+    background: linear-gradient(to bottom, #8FA1AA 0%, #A5A9AF 52%, #A0A0A0 100%);
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    padding-top: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+figure {
+    text-align: center;
+}
+
+#image {
+    height: 500px;
+    width: 360px;
+}
+
+#from {
+    margin-left: 193px;
+}
+
+#tribute-info {
+    background-color: silver;
+    border-radius: 25px;
+    margin: 40px 20px 30px 20px;
+    padding: 30px 45px 30px 45px;
+    font-family: 'Jost', sans-serif;
+    font-size: larger;
+    box-shadow: 5px 5px 20px 5px #666666;
+}
+
+.tribute {
+    font-family: 'Jost', sans-serif;
+    margin-left: 76px;
+    font-size: 5vh;
+}
+
+.tributes {
+    background-color: silver;
+    border-radius: 25px;
+    margin: 10px 30px 20px 30px;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;
+    box-shadow: 9px 9px 20px 5px #666666;
+}
+
+.more {
+    font-style: italic;
+    font-family: 'Jost', sans-serif;
+    padding-left: 30px;
+}
+
+ul {
+    margin: 10px 100px 20px 100px;
+}
+
+li {
+    padding: 10px;
+}
+
+#yt-link {
+    display: flex;
+    justify-content: center;
+}
+
+#MarvelTweet {
+    margin: 10px 0px 12px 0px;
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+blockquote {
+    margin: 40px 90px 30px 90px;
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+    text-align: center;
+}

@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+header {
+    background-color: rgb(194, 48, 72);
+    height: 7vh;
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.heading {
+    float: left;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+#header-img {
+    float: left;
+    margin-left: 12px;
+}
+
+#nav-bar {
+    padding: 15px;
+}
+
+#nav-bar ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#home {
+    height: 93vh;
+    background-image: url(https://images.unsplash.com/photo-1555420460-ca0b82023f95?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8aWNlY3JlYW0sdmFuaWxsYXx8fHx8fDE2MjgwODkwNTE&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+}
+
+.head1 {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    padding: 55px 20px 20px 20px;
+}
+
+.email {
+    margin-top: 80px;
+    color: whitesmoke;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#username {
+    margin-top: 10px;
+    padding: 5px 0px 5px 5px;
+    height: 28px;
+    width: 50vw;
+}
+
+#subs {
+    height: 42px;
+    width: 100px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#gallery {
+    background-color: rgb(226, 226, 226);
+    height: 170vh;
+    width: 100vw;
+}
+
+.head2 {
+    text-align: center;
+    font-size: 4vh;
+    padding: 50px 20px 10px 20px;
+}
+
+.cards {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 150px;
+    margin: 50px 50px 50px 50px;
+}
+
+.card {
+    background-color: whitesmoke;
+    padding: 40px 40px 40px 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-body {
+    padding-top: 25px;
+    text-align: center;
+}
+
+#image {
+    border-radius: 20px;
+}
+
+.head3 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.video-wrap {
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.video-quote {
+    background-color: rgb(223, 221, 221);
+    width: 30vw;
+    margin: 69px 171px 50px 50px;
+    float: right;
+    padding: 40px 77px 41px 55px;
+    font-size: 30px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 2px 4px 4px #B6B6B6;
+    box-shadow: 8px 8px 14px 8px #B6B6B6;
+}
+
+#services {
+    background-color: rgb(68, 67, 78);
+    width: 100vw;
+    height: 60vh;
+    color: whitesmoke;
+}
+
+.head4 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#form-div {
+    display: inline;
+    float: left;
+    font-size: x-large;
+    margin: -25px 48px;
+}
+
+.form-group {
+    padding: 12px;
+}
+
+#delivery {
+    margin: 1px 85px;
+    border-radius: 12px;
+}
+
+#form-input {
+    width: 300px;
+    height: 35px;
+    padding-left: 12px;
+}
+
+#email {
+    width: 300px;
+    height: 35px;
+    padding-left: 12px;
+}
+
+#submit {
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    margin: 30px 109px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+footer {
+    height: 5vh;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+}
